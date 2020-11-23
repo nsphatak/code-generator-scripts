@@ -1,0 +1,18 @@
+templateDir: templateDIR
+additionalProperties:
+  basePackage: "com.experience.codegen"
+  apiPackage: "com.experience.codegen.controllers"
+  modelPackage: "com.experience.codegen.models"
+  serializableModel: "true"
+  dateLibrary: java8
+  artifactId: "account-summary-experience-api"
+  groupId: "com.experience"
+  apiFirst: "true"
+  reactive: "true"
+  skipDefaultInterface: "true"
+  useBeanValidation: "true"
+  performBeanValidation: "true"
+files:
+  pom.mustache:
+    templateType: POM
+    destinationFilename: pom.xml
